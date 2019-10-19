@@ -1,0 +1,35 @@
+{
+  "name": "raw-mongo",
+  "version": "1.0.0",
+  "description": "Raw Node JS wrapper for Mongo DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzispina/raw-mongo-js.git"
+  },
+  "keywords": [
+    "mongodb",
+    "database",
+    "mongo",
+    "raw",
+    "simple",
+    "lightweight"
+  ],
+  "author": "Gonzalo Spina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonzispina/raw-mongo-js/issues"
+  },
+  "homepage": "https://github.com/gonzispina/raw-mongo-js#readme",
+  "dependencies": {
+    "mongodb": "^3.3.3"
+  },
+  "devDependencies": {
+    "proxyquire": "^2.1.3",
+    "standard": "^14.3.1",
+    "tap": "^14.7.2"
+  }
+}
