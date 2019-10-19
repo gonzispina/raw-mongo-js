@@ -19,11 +19,11 @@ const mongo = require('raw-mongo')
 const config = require('./src/config')
 
 async function start () {
-	...
+  ...
 
-    var Connection = await mongo.settleConnections(config.mongo)
+  var Connection = await mongo.settleConnections(config.mongo)
 
-    ...
+  ...
 }
 
 start()
@@ -38,8 +38,8 @@ const collection = db.collection('your_collection_name')
 
 
 module.exports = (req, res) => {
-	const result = collection.findOne({ some_prop: 'some_prop_value' })
-	res.send(result)
+  const result = collection.findOne({ some_prop: 'some_prop_value' })
+  res.send(result)
 }
 ```
 
